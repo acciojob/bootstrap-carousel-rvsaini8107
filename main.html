@@ -4,9 +4,36 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+	<div class="carousel slider" id="myCarousel" data-ride="carousel">
+    <!-- Wrapper for sliders -->
+    <div class="carousel-inner">
+        <div class="first-slide item active">
+            <img src="https://www.w3schools.com/bootstrap/ny.jpg" alt="image 1">
+        </div>
+        <div class="second-slide item"> <img src="https://www.w3schools.com/bootstrap/chicago.jpg" alt="image 2"></div>
+        <div class="third-slide item"> <img src="https://www.w3schools.com/bootstrap/la.jpg" alt="image 3"></div>
+        <div class="fourth-slide item"> <img src="https://www.w3schools.com/bootstrap/ny.jpg" alt="image 4"></div>
+        <div class="fifth-slide item"> <img src="https://www.w3schools.com/bootstrap/la.jpg" alt="image 5"></div>
+        <!-- left and right controls -->
+        <a href="#myCarousel" data-slide="prev" class="left carousel-control">
+           <span class="glyphicon glyphicon-chevron-left"></span>
+           <span class="sr-only">Previous</span> 
+        </a>
+        <a href="#myCarousel" data-slide="next" class="right carousel-control">
+           <span class="glyphicon glyphicon-chevron-right"></span>
+           <span class="sr-only">Next</span> 
+        </a>
+
+
+
+    </div>
+   </div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
